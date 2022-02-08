@@ -1,0 +1,296 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Merriweather:wght@300;400;700;900&family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap");
+.portfolio {
+  height: 40px;
+  border-bottom: 1px solid #e4e4e4;
+  color: #515050;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.portfolio a {
+  color: #515050;
+}
+
+.portfolio ul li .contact::after {
+  content: '';
+  border-right: 1px solid #e4e4e4;
+  height: 10px;
+  padding-right: 10px;
+}
+
+i {
+  padding: 0 5px;
+}
+
+.main-nav .logo {
+  height: 50px;
+  width: 180px;
+}
+
+.main-nav ul li {
+  padding: 12px;
+}
+
+.main-nav ul li a {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Mulish', sans-serif;
+}
+
+.main-nav span .btn {
+  height: 50px;
+  width: 130px;
+  background-color: orange;
+  color: #fff;
+  font-weight: bold;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family: 'Mulish', sans-serif;
+}
+
+.immi-body {
+  background-image: url(../img/slide-3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.immi-body .immi-text {
+  text-align: center;
+  width: 650px;
+  padding-top: 60px;
+  margin: auto;
+}
+
+.immi-body .immi-text h2 {
+  font-size: 60px;
+  padding: 10px 0;
+}
+
+.immi-body .immi-text p {
+  font-size: 18px;
+}
+
+.immi-body .immi-text .btn {
+  background-color: #fd7e14;
+  color: #fff;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.immi-body .immi-text .arrow {
+  padding-top: 120px;
+}
+
+.immi-body .immi-text .arrow i {
+  padding: 5px 60px;
+  font-size: 40px;
+}
+
+.C-card .card-boxs .col-lg-4 {
+  padding: 20px;
+}
+
+.C-card .card-boxs .col-lg-4 .C-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border: 1px solid #c5c5c5;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.C-card .card-boxs .col-lg-4 i {
+  font-size: 40px;
+  padding-right: 20px;
+  color: #6b6b6b;
+}
+
+.about-agency .about-txt .cpi-txt {
+  padding: 40px;
+}
+
+.about-agency .about-txt .cpi-txt h5 {
+  color: #a1a1a1;
+  font-size: 15px;
+}
+
+.about-agency .about-txt .cpi-txt h2 {
+  font-size: 45px;
+}
+
+.about-agency .about-txt .cpi-txt ul li {
+  list-style-type: circle;
+}
+
+.consultant .consult .world-map img {
+  width: 100%;
+}
+
+.imi-oppo .imi-oppo-txt .imi-txt {
+  text-align: center;
+}
+
+.imi-oppo .imi-oppo-txt .imi-txt .imi-text {
+  margin: auto;
+  width: 650px;
+}
+
+.imi-oppo .imi-oppo-txt .imi-txt p {
+  padding: 10px;
+}
+
+.imi-oppo .imi-oppo-txt .imi-box {
+  padding: 10px;
+}
+
+.imi-oppo .imi-oppo-txt .imi-box .box {
+  height: 230px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 20px;
+}
+
+.imi-oppo .imi-oppo-txt .imi-box .box:hover img {
+  -webkit-transform: scale(1.5, 1.5);
+          transform: scale(1.5, 1.5);
+}
+
+.imi-oppo .imi-oppo-txt .imi-box .box img {
+  width: 100%;
+  height: 100%;
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+  border-radius: 20px;
+}
+
+.imi-oppo .imi-oppo-txt .imi-box .box p {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  color: #fff;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+  z-index: 3;
+}
+
+.imi-oppo .imi-oppo-txt .imi-box .box .small {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+  z-index: 1;
+}
+
+.LQA {
+  background-image: url(../img/about-6.jpg);
+}
+
+.LQA .LQA-box .LQA-img img {
+  height: 450px;
+}
+
+.LQA .LQA-box .LQA-txt h2 {
+  font-size: 45px;
+}
+
+.LQA .LQA-box .LQA-txt .img-flag img {
+  height: 50px;
+  width: 75px;
+  padding: 5px 10px;
+}
+
+.footer-1 {
+  border-bottom: 1px solid #a7a7a7;
+}
+
+.footer-1 .foot-1 .foot1 .space {
+  padding-top: 15px;
+}
+
+.footer-1 .foot-1 .col-lg-3 p {
+  line-height: 18px;
+}
+
+.footer-1 .foot-1 .col-lg-3 h2 {
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+.footer-1 .subscribe input {
+  padding: 10px 30px;
+  outline: none;
+  border-radius: 10px;
+  border: 1px solid #b4b4b4;
+}
+
+.footer-1 .subscribe .btn {
+  background-color: #fd7e14;
+  color: #fff;
+  padding: 10px 86px;
+  margin-top: 10px;
+}
+
+.footer-2 .foot-2 {
+  text-align: center;
+}
+
+.footer-2 .foot-2 .foot-img img {
+  height: 50px;
+  width: 200px;
+}
+
+.footer-2 .foot-2 .cr-sec .copy-right ul li {
+  list-style: none;
+  display: inline;
+  padding-right: 10px;
+}
+
+@media screen and (max-width: 992px) {
+  .portfolio {
+    display: none;
+  }
+  .LQA .LQA-box .LQA-img {
+    display: none;
+  }
+  .LQA .LQA-box .LQA-txt {
+    text-align: center;
+  }
+  .footer-1 .foot-1 .col-lg-3 {
+    text-align: center;
+  }
+  .footer-1 .subscribe .btn {
+    display: block;
+    margin: 10px auto;
+  }
+  .imi-oppo .imi-oppo-txt .imi-txt .imi-text {
+    width: auto;
+  }
+  .consultant .consult {
+    text-align: center;
+  }
+  .about-agency .about-txt .agency-img {
+    text-align: center;
+  }
+  .about-agency .about-txt .agency-img img {
+    width: 100%;
+  }
+  .immi-body .immi-text {
+    width: auto;
+  }
+  .immi-body .immi-text h2 {
+    font-size: 30px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
